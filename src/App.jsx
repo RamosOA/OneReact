@@ -12,7 +12,6 @@ function App() {
         if (init) {
             return;
         }
-
         initParticlesEngine(async (engine) => {
             await loadFull(engine);
         }).then(() => {
@@ -22,7 +21,7 @@ function App() {
 
     return (
         <div >
-            {init && <Particles options={particlesOptions} id="tsparticles"/>}
+            <div id="particles-div">{init && <Particles options={particlesOptions} id="tsparticles"/>}</div>
                 <header>
                     <div className="logo">
                         <div className="logo-nav">
