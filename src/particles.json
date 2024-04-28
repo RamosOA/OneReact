@@ -1,6 +1,6 @@
 {
   "background": {
-    "color": "#282c34"
+    "image": "url(\"../public/logo192.png\")"
   },
   "interactivity": {
     "events": {
@@ -19,14 +19,14 @@
         "quantity": 4
       },
       "repulse": {
-        "distance": 200,
+        "distance": 100,
         "duration": 0.4
       }
     }
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#E77E00"
     },
     "links": {
       "color": "#ffffff",
@@ -52,7 +52,7 @@
       "density": {
         "enable": true
       },
-      "value": 80
+      "value": 150
     },
     "opacity": {
       "value": 0.5
